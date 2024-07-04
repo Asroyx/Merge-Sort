@@ -1,9 +1,9 @@
 # Merge Sort Aşamaları ve Big-O Analizi
 
-## Verilen Dizi
+### Verilen Dizi
 [16,21,11,8,12,22]
 
-## Merge Sort Aşamaları
+### Merge Sort Aşamaları
 
 1. Diziyi ikiye böl:
    [16,21,11] [8,12,22]
@@ -23,11 +23,16 @@
 6. Son birleştirme ile sıralı diziyi elde et:
    [8,11,12,16,21,22]
 
-## Big-O Gösterimi
+#### Merge Sort Şematik Gösterimi
+
+<img src="./Scheme.png" alt="Merge Sorting Scheme" width="450">
+
+### Big-O Gösterimi
 
 Merge Sort'un zaman karmaşıklığı: O(n log n)
 
-### Açıklama:
+#### Açıklama:
 - Dizi sürekli ikiye bölündüğü için log n seviyesi oluşur.
 - Her seviyede n eleman üzerinde işlem yapılır (birleştirme işlemi).
 - Bu nedenle toplam karmaşıklık n * log n = O(n log n) olur.
+
